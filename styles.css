@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -158,4 +159,99 @@ body.dark-mode {
 
 button:hover{
     background-color: rgb(226, 213, 63);
+=======
+body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    background-image: url(pex.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(50, 150, 196, 0.5); /* Optional: for better visibility */
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.site-title {
+color: whitesmoke;
+font-weight: bold;
+font-size: 40px;
+}
+
+.logo {
+    height: 60px; /* Adjust the height of the logo as needed */
+    margin-right: 10px;
+}
+.weather-app {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin-top: 200px;
+}
+
+.weather-info{
+    margin-top: 20px;
+}
+
+#city {
+    padding: 5px;
+    width: 80%;
+    border: 2px solid #0f0e0e;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+#load-spinner {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#load-spinner img {
+    width: 100px;
+    height: 90px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: rgb(22, 163, 176);
+    color: #010105;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(226, 213, 63);
+>>>>>>> 59dd8e55a12a7ff7e417a436e864452be60249bf
 }
